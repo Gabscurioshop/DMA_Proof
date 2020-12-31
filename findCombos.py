@@ -23,7 +23,7 @@
 #This function saves the sets that 
 #work with the trick in a new file
 def write_working_combos(plier, plicand, product):
-  f = open("working_combos.txt", "a")
+  f = open("workingCombos.txt", "a")
   f.write(plier + " " + plicand + " " + product + "\n")
   f.close()
 
